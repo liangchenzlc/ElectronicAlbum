@@ -22,6 +22,7 @@ public enum ResponseStatusCodeEnum {
     private Integer code;
     private String enMessage;
     private String zhMessage;
+
     ResponseStatusCodeEnum(Integer code, String enMessage, String zhMessage) {
     }
 

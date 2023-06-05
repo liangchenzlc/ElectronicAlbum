@@ -5,6 +5,7 @@ import java.io.Serializable;
 
 /**
  * 前后端响应数据对象[前后端传输协议]
+ *
  * @param <T> 请求数据的对象类型
  */
 public class ResponseResult<T> implements Serializable {

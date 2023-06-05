@@ -6,6 +6,7 @@ package com.coderedma.response;
 public class ResponseUtils {
     /**
      * 响应成功
+     *
      * @param object 数据对象
      * @return 返回响应成功对象
      */
@@ -20,6 +21,7 @@ public class ResponseUtils {
 
     /**
      * 404未找到
+     *
      * @return 响应未找到
      */
     public static ResponseResult notFound() {
@@ -34,6 +36,7 @@ public class ResponseUtils {
 
     /**
      * 服务器内部异常
+     *
      * @return 服务器异常对象
      */
     public static ResponseResult serverError() {
